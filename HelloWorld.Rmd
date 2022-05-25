@@ -1,0 +1,26 @@
+---
+output:
+  html_document: default
+  word_document: default
+  pdf_document: default
+---
+
+# Practicing using R Markdown by Johnson Amoah
+
+## This is a markdown file
+
+**Part 1**
+```{r}
+data(cars)
+str(cars)
+summary(cars)
+plot(cars)
+```
+
+**Part 2**
+``` {r}
+hist(cars$speed)
+boxplot(cars$dist)
+```
+
+#The end
